@@ -15,10 +15,10 @@ func _ready():
 #func _process(delta):
 #	pass
 
-
 func _on_Restart_pressed():
 	get_tree().change_scene("res://scenes/Map0.tscn")
 
 
 func _on_Menu_pressed():
 	get_tree().change_scene("res://scenes/Menu.tscn")
+

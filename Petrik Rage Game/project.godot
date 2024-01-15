@@ -14,6 +14,10 @@ config/name="Petrik Rage Game"
 run/main_scene="res://scenes/Menu.tscn"
 config/icon="res://icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/randomAudioStreamPlayer/plugin.cfg" )
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

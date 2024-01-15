@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kevin MacLeod Overworld.mp3-3a4a945ab816f16f4c3b9ec34debf7b9.mp3str"
+
+[deps]
+
+source_file="res://assets/ost/Kevin MacLeod Overworld.mp3"
+dest_files=[ "res://.import/Kevin MacLeod Overworld.mp3-3a4a945ab816f16f4c3b9ec34debf7b9.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

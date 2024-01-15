@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Yipe.mp3-c9b6a5a76a5c7b0f6dc16aa86433f7df.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/Yipe.mp3"
+dest_files=[ "res://.import/Yipe.mp3-c9b6a5a76a5c7b0f6dc16aa86433f7df.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

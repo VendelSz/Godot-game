@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Kevin MacLeod Pixelland.mp3-c7fb25186c91ecbe7f8dfd1046cd1383.mp3str"
+
+[deps]
+
+source_file="res://assets/ost/Kevin MacLeod Pixelland.mp3"
+dest_files=[ "res://.import/Kevin MacLeod Pixelland.mp3-c7fb25186c91ecbe7f8dfd1046cd1383.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
