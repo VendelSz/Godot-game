@@ -51,3 +51,11 @@ func _physics_process(delta):
 		
 	motion = move_and_slide(motion,UP)
 	
+
+
+var i:= 0.0
+var is_hit:= false
+func hit()->void:
+	if is_hit:return
+	is_hit = true
+	get_tree().change_scene("res://scenes/Game Over.tscn")
