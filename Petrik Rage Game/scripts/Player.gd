@@ -54,6 +54,9 @@ func _physics_process(delta):
 	if is_on_floor():
 		if Input.is_action_pressed("jump"):
 			motion.y = -JUMP_FORCE
+			
+	if Input.is_action_pressed("esc"):
+		get_tree().change_scene("res://scenes/Menu.tscn")
 
 	motion = move_and_slide(motion, UP)
 
