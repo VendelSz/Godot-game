@@ -57,6 +57,11 @@ func _physics_process(delta):
 			
 	if Input.is_action_pressed("esc"):
 		get_tree().change_scene("res://scenes/Menu.tscn")
+		
+	if $QuestionMark.visible:
+		if Input.is_action_pressed("interact"):
+			get_tree().change_scene("res://scenes/Menu.tscn")
+	
 
 	motion = move_and_slide(motion, UP)
 
@@ -67,4 +72,7 @@ func hit() -> void:
 	if is_hit:
 		return
 	is_hit = true
-	get_tree().change_scene("res://scenes/Game Over.tscn")
+	get_tree().change_scene("res://scenes/GameOver.tscn")
+
+
+
