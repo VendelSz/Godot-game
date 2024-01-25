@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/szuz maradsz2.mp3-64eeca132ee9816e9beadc24f55ce030.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/szuz maradsz2.mp3"
+dest_files=[ "res://.import/szuz maradsz2.mp3-64eeca132ee9816e9beadc24f55ce030.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

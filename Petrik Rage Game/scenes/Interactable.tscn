@@ -11,15 +11,15 @@ radius = 16.4924
 script = ExtResource( 3 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 56, -16 )
+position = Vector2( 0, -16 )
 texture = ExtResource( 1 )
 hframes = 10
 vframes = 10
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 56, -12 )
+position = Vector2( 0, -16 )
 shape = SubResource( 1 )
 
 [node name="QuestionMark" type="Sprite" parent="."]
-position = Vector2( 56, -32 )
+position = Vector2( 0, -32 )
 texture = ExtResource( 2 )

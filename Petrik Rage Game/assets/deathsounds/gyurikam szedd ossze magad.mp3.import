@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gyurikam szedd ossze magad.mp3-159bcb94bb0bba4d545817c1d1e3ff29.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/gyurikam szedd ossze magad.mp3"
+dest_files=[ "res://.import/gyurikam szedd ossze magad.mp3-159bcb94bb0bba4d545817c1d1e3ff29.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

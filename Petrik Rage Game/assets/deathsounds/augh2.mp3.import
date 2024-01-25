@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/augh2.mp3-b9ea3e9ab4ce52e3bc601ea43ada37e8.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/augh2.mp3"
+dest_files=[ "res://.import/augh2.mp3-b9ea3e9ab4ce52e3bc601ea43ada37e8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

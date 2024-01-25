@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ez meg ki (n-word).mp3-fdd577ad5f495c2129d77b3ddf91f7a9.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/ez meg ki (n-word).mp3"
+dest_files=[ "res://.import/ez meg ki (n-word).mp3-fdd577ad5f495c2129d77b3ddf91f7a9.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

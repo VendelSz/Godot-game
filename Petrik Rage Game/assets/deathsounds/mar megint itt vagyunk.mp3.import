@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mar megint itt vagyunk.mp3-7c0a579c167ce3559f6d86082117f703.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/mar megint itt vagyunk.mp3"
+dest_files=[ "res://.import/mar megint itt vagyunk.mp3-7c0a579c167ce3559f6d86082117f703.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

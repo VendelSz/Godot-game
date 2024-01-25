@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/zseni vagyok.mp3-1bb60b6085a714fc6a6fc7bd451f53d8.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/zseni vagyok.mp3"
+dest_files=[ "res://.import/zseni vagyok.mp3-1bb60b6085a714fc6a6fc7bd451f53d8.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,10 +1,13 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://assets/sky.png" type="Texture" id=1]
 [ext_resource path="res://scripts/Game Over.gd" type="Script" id=2]
-[ext_resource path="res://assets/deathsounds/Rah Band ~ Messages From The Stars 『Slowed & Reverb』.mp3" type="AudioStream" id=3]
-[ext_resource path="res://assets/deathsounds/fakeyou_rvc_f6r1f23nfgd1dykq5k2fx5yktybvr2cz.wav" type="AudioStream" id=4]
-[ext_resource path="res://assets/deathsounds/Yipe.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/deathsounds/augh1.mp3" type="AudioStream" id=3]
+[ext_resource path="res://assets/deathsounds/ne pityeregjel.mp3" type="AudioStream" id=4]
+[ext_resource path="res://assets/deathsounds/retkes francia gecik.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/deathsounds/aaahhh1.mp3" type="AudioStream" id=6]
+[ext_resource path="res://assets/deathsounds/aaahhh2.mp3" type="AudioStream" id=7]
+[ext_resource path="res://assets/deathsounds/augh2.mp3" type="AudioStream" id=9]
 
 [sub_resource type="DynamicFontData" id=5]
 font_path = "res://assets/fonts/VCR_OSD_MONO_1.001.ttf"
@@ -76,13 +79,22 @@ expand_icon = true
 [node name="Camera2D" type="Camera2D" parent="."]
 current = true
 
-[node name="phoneguy" type="AudioStreamPlayer" parent="."]
-stream = ExtResource( 4 )
+[node name="aaahhh1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
 
-[node name="stars" type="AudioStreamPlayer" parent="."]
+[node name="aaahhh2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[node name="augh1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 3 )
 
-[node name="yipe" type="AudioStreamPlayer" parent="."]
+[node name="augh2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 9 )
+
+[node name="nepityeregjel" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[node name="retkesfranciagecik" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
 
 [connection signal="pressed" from="Restart" to="." method="_on_Restart_pressed"]

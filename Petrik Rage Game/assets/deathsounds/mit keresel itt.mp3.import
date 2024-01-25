@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mit keresel itt.mp3-1317e86a450888b20e2b400ad7cea54a.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/mit keresel itt.mp3"
+dest_files=[ "res://.import/mit keresel itt.mp3-1317e86a450888b20e2b400ad7cea54a.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

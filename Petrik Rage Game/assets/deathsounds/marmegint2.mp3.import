@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/marmegint2.mp3-fe34a102d5fc11d0e14227bf770f36c6.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/marmegint2.mp3"
+dest_files=[ "res://.import/marmegint2.mp3-fe34a102d5fc11d0e14227bf770f36c6.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ennek mi ertelme volt.mp3-600f4fd8368e9fcf82d84e3f7bc35bdc.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/ennek mi ertelme volt.mp3"
+dest_files=[ "res://.import/ennek mi ertelme volt.mp3-600f4fd8368e9fcf82d84e3f7bc35bdc.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

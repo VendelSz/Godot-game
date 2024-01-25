@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/mar megint ti.mp3-3e8ba893174cda3f785cfc5a6812e9ff.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/mar megint ti.mp3"
+dest_files=[ "res://.import/mar megint ti.mp3-3e8ba893174cda3f785cfc5a6812e9ff.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

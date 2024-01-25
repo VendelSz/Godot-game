@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ne pityeregjel.mp3-40b50290b9c431673e7f24a0618b957f.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/ne pityeregjel.mp3"
+dest_files=[ "res://.import/ne pityeregjel.mp3-40b50290b9c431673e7f24a0618b957f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
