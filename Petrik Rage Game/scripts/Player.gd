@@ -63,12 +63,19 @@ func _physics_process(delta):
 
 var i := 0.0
 var is_hit := false
+var is_finish := false
 
 func hit() -> void:
 	if is_hit:
 		return
 	is_hit = true
 	get_tree().change_scene("res://scenes/Game Over.tscn")
+	
+func finish() -> void:
+	if is_finish:
+		return
+	is_finish = true
+	get_tree().change_scene("res://scenes/Map1.tscn")
 
 
 
