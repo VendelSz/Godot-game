@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/csak semmi buzulas.mp3-6eeef9acfdddef848d46b43ecbc922e3.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/csak semmi buzulas.mp3"
+dest_files=[ "res://.import/csak semmi buzulas.mp3-6eeef9acfdddef848d46b43ecbc922e3.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

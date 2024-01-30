@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/retkes francia gecik.mp3-e77c493ae9491cd2b26aa9144b81fa7c.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/retkes francia gecik.mp3"
+dest_files=[ "res://.import/retkes francia gecik.mp3-e77c493ae9491cd2b26aa9144b81fa7c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

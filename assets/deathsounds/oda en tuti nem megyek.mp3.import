@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/oda en tuti nem megyek.mp3-ef528360a13d9906af787962275d9b5f.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/oda en tuti nem megyek.mp3"
+dest_files=[ "res://.import/oda en tuti nem megyek.mp3-ef528360a13d9906af787962275d9b5f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

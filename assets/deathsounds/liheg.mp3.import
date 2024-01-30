@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/liheg.mp3-18aaac386980399d2d0d49ccae3ba311.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/liheg.mp3"
+dest_files=[ "res://.import/liheg.mp3-18aaac386980399d2d0d49ccae3ba311.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

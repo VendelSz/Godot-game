@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/hopp a szöcske.mp3-aa4d421af57599d25d32b8adb88e4a9c.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/hopp a szöcske.mp3"
+dest_files=[ "res://.import/hopp a szöcske.mp3-aa4d421af57599d25d32b8adb88e4a9c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

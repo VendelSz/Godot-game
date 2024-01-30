@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Rah Band ~ Messages From The Stars 『Slowed & Reverb』.mp3-c1d08c50f6fd1bb3d5cc608273f45a69.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/Rah Band ~ Messages From The Stars 『Slowed & Reverb』.mp3"
+dest_files=[ "res://.import/Rah Band ~ Messages From The Stars 『Slowed & Reverb』.mp3-c1d08c50f6fd1bb3d5cc608273f45a69.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

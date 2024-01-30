@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/kocsma1.mp3-68047ecd0e18556b1e53ca66774982c1.mp3str"
+
+[deps]
+
+source_file="res://assets/deathsounds/kocsma1.mp3"
+dest_files=[ "res://.import/kocsma1.mp3-68047ecd0e18556b1e53ca66774982c1.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
