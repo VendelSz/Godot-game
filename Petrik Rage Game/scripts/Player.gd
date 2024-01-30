@@ -69,7 +69,7 @@ func hit() -> void:
 	if is_hit:
 		return
 	is_hit = true
-	get_tree().change_scene("res://scenes/Game Over.tscn")
+	get_tree().change_scene("res://scenes/GameOver0.tscn")
 	
 func finish() -> void:
 	if is_finish:
