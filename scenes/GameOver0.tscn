@@ -1,0 +1,101 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://scripts/GameOver.gd" type="Script" id=1]
+[ext_resource path="res://assets/sky.png" type="Texture" id=2]
+[ext_resource path="res://assets/deathsounds/augh1.mp3" type="AudioStream" id=3]
+[ext_resource path="res://assets/deathsounds/augh2.mp3" type="AudioStream" id=4]
+[ext_resource path="res://assets/deathsounds/ne pityeregjel.mp3" type="AudioStream" id=5]
+[ext_resource path="res://assets/deathsounds/aaahhh2.mp3" type="AudioStream" id=6]
+[ext_resource path="res://assets/deathsounds/retkes francia gecik.mp3" type="AudioStream" id=7]
+[ext_resource path="res://assets/deathsounds/aaahhh1.mp3" type="AudioStream" id=8]
+
+[sub_resource type="DynamicFontData" id=5]
+font_path = "res://assets/fonts/VCR_OSD_MONO_1.001.ttf"
+
+[sub_resource type="DynamicFont" id=7]
+size = 100
+outline_size = 3
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 5 )
+
+[sub_resource type="DynamicFontData" id=6]
+font_path = "res://assets/fonts/VCR_OSD_MONO_1.001.ttf"
+
+[sub_resource type="DynamicFont" id=8]
+size = 50
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 6 )
+
+[sub_resource type="DynamicFontData" id=3]
+font_path = "res://assets/fonts/VCR_OSD_MONO_1.001.ttf"
+
+[sub_resource type="DynamicFont" id=9]
+size = 50
+outline_size = 1
+outline_color = Color( 0, 0, 0, 1 )
+font_data = SubResource( 3 )
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Sky" type="Sprite" parent="."]
+position = Vector2( 40, 0 )
+scale = Vector2( 5.4, 5.2 )
+texture = ExtResource( 2 )
+
+[node name="Label" type="Label" parent="."]
+margin_left = -264.0
+margin_top = -152.0
+margin_right = 267.0
+margin_bottom = -64.0
+custom_fonts/font = SubResource( 7 )
+text = "Game Over"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Restart" type="MenuButton" parent="."]
+margin_left = -127.0
+margin_top = 56.0
+margin_right = 129.0
+margin_bottom = 106.0
+focus_mode = 2
+custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 8 )
+text = "Restart"
+expand_icon = true
+
+[node name="Menu" type="MenuButton" parent="."]
+margin_left = -127.0
+margin_top = 158.0
+margin_right = 129.0
+margin_bottom = 208.0
+focus_mode = 2
+custom_fonts/font = SubResource( 9 )
+text = "Menu"
+expand_icon = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+
+[node name="aaahhh1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 8 )
+
+[node name="aaahhh2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+
+[node name="augh1" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="augh2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[node name="nepityeregjel" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+
+[node name="retkesfranciagecik" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+
+[connection signal="pressed" from="Restart" to="." method="_on_Restart_pressed"]
+[connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]
